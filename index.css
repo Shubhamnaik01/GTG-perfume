@@ -1,0 +1,263 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+
+/* Nav Logo text styling */
+.logo {
+  font-family: "Inter", sans-serif;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 1.5;
+  letter-spacing: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(3, 46, 21, 0.6) 0%,
+    rgba(1, 102, 48, 0.6) 100%
+  );
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin: 0;
+  white-space: nowrap;
+}
+
+.navbar {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 72.81px;
+  z-index: 10;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.nav-container {
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 64.72px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar nav {
+  height: 100%;
+}
+
+.navbar nav div ul {
+  max-width: 528.12px;
+  max-height: 24.27px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 35px;
+}
+
+.navbar nav div ul li {
+  list-style: none;
+}
+
+.nav-search {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+.nav-search img {
+  width: 26.71px;
+  height: 26.72px;
+}
+
+.nav-search button {
+  max-width: 145px;
+  max-height: 49px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.2;
+  letter-spacing: 0;
+  color: #fff;
+  padding: 16px 28px;
+  border-radius: 999px;
+  background: linear-gradient(
+    180deg,
+    rgba(3, 46, 21, 1) 0%,
+    rgba(1, 102, 48, 1) 100%
+  );
+  border: none;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-search button:hover {
+  filter: brightness(1.1);
+}
+
+.navbar nav div ul li a {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16.18px;
+  line-height: 1.5;
+  letter-spacing: 0;
+  color: #162456;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.shop-dropdow {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.shop-dropdow span img {
+  width: 12.73px;
+  height: 7.2px;
+  display: block;
+}
+
+.hero-section {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url("assets/grassPerfume.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: flex-start; */
+  align-items: flex-start;
+}
+
+.hero-content {
+  width: 692px;
+  max-height: 344px;
+  margin-top: 177.5px;
+  margin-left: 74px;
+  display: flex;
+  flex-direction: column;
+  align-content: space-evenly;
+  gap: 2rem;
+}
+
+.hero-award {
+  width: 356px;
+  height: 40px;
+}
+
+.hero-award div {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 8px 16px;
+  gap: 8px;
+  background: linear-gradient(
+    180deg,
+    rgba(3, 46, 21, 0.6) 0%,
+    rgba(1, 102, 48, 0.6) 100%
+  );
+  border: 0.5px solid transparent;
+  border-image-source: linear-gradient(
+    90.05deg,
+    rgba(255, 255, 255, 0.5) 0.04%,
+    rgba(252, 252, 252, 0.4) 102.54%
+  );
+  border-image-slice: 1;
+  border-image-repeat: round;
+  border-radius: 1000px;
+}
+
+.hero-award p {
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  font-style: Light;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  color: #ffffff;
+}
+
+.hero-text {
+  min-height: 256px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.hero-text h2 {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 112.00000000000001%;
+  letter-spacing: -1.33px;
+  color: #032e15;
+}
+
+.hero-numbers {
+  width: 545.5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero-numbers div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+}
+
+.hero-numbers div h2 {
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  vertical-align: middle;
+  background: linear-gradient(
+    180deg,
+    rgba(3, 46, 21, 0.6) 0%,
+    rgba(1, 102, 48, 0.6) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.hero-numbers div p {
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 104%;
+  letter-spacing: 0px;
+  vertical-align: middle;
+  background: linear-gradient(
+    180deg,
+    rgba(3, 46, 21, 0.6) 0%,
+    rgba(1, 102, 48, 0.6) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.hero-shopnow {
+  width: 185.33px;
+  max-height: 48px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.2;
+  letter-spacing: 0;
+  color: #fff;
+  padding: 16px 28px;
+  border-radius: 999px;
+  background: linear-gradient(
+    180deg,
+    rgba(3, 46, 21, 1) 0%,
+    rgba(1, 102, 48, 1) 100%
+  );
+  border: none;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
